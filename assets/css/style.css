@@ -5,3 +5,23 @@
     box-sizing: border-box;
 
 }
+
+body{
+
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.debug .headbar{
+
+    background-color: blue;
+}
+
+.debug .container_header{
+
+    background-color: #f90000;
+    margin: 0 30%;
+    
+
+}

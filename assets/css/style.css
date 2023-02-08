@@ -15,11 +15,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.debug{
 
-    background-color: #142df0;
-
-}
 
 .container_header{
 
@@ -80,9 +76,14 @@ body{
     display: flex;
     
 }
+.img_container{
+
+
+
+}
 
 #picture{
 
-    height: 100px;
+    height: 300px;
 
 }

@@ -15,8 +15,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.debug{
 
-.debug .container_header{
+    background-color: #142df0;
+
+}
+
+.container_header{
 
     background-color: #ff6900;
     margin: auto;
@@ -29,7 +34,7 @@ body{
 }
 
 
-.debug #boolean_logo{
+#boolean_logo{
 
     height: 30px;
 
@@ -51,3 +56,12 @@ body{
     color: white;
 }
 
+.debug,.container{
+
+    margin: 10% 30%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    position: relative;
+}

@@ -10,7 +10,9 @@ body{
 
     max-width: 1400px;
     margin: auto;
-
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .debug .headbar{
@@ -20,10 +22,12 @@ body{
 
 .debug .container_header{
 
-    background-color: #f90000;
-    margin: 0 30%;
+    background-color: #ff6900;
+    margin: auto;
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 
@@ -31,5 +35,21 @@ body{
 
     height: 30px;
 
+}
+
+.icons{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content_icon{
+
+    color: white;
+}
+
+#people_gender{
+
+    color: white;
 }
 

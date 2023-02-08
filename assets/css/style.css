@@ -22,6 +22,14 @@ body{
 
     background-color: #f90000;
     margin: 0 30%;
+    display: flex;
     
+}
+
+
+.debug #boolean_logo{
+
+    height: 30px;
 
 }
+

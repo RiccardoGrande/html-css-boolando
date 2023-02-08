@@ -63,6 +63,7 @@ body{
 
 .flex_container{
 
+    height: 1000px;
     width: 800px;
     background-color: black;
     margin: 50px auto ;

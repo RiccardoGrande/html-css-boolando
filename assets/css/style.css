@@ -29,7 +29,8 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    position: fixed;
+   /*  position: sticky;
+    position: fixed; */
     max-width: 1400px;
 }
 
@@ -56,18 +57,28 @@ body{
     color: white;
 }
 
-.debug,.container{
+.debug,.shop{
 
     margin: auto;
     height: 800px;
-    display: flex;
+    max-width: 1400px;
+}
+
+.flex_container{
+
     width: 800px;
+    background-color: black;
+    display: flex;
+    margin: 50px 20% ;
+
 }
 
 .image_container{
 
-    height: 100px;
-    width: 100%;
+    
+    width: calc(100% / 3);
+    display: flex;
+    
 }
 
 #picture{

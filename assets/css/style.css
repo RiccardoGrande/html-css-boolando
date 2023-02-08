@@ -60,20 +60,20 @@ body{
 .debug,.shop{
 
     margin: auto;
-    height: 800px;
     max-width: 1400px;
+    display: flex;
+    justify-content: center;
 }
 
 .flex_container{
 
     width: 800px;
     background-color: black;
-    display: flex;
-    margin: 50px 20% ;
+    margin: 50px auto ;
 
 }
 
-.image_container{
+.row_container{
 
     
     width: calc(100% / 3);
